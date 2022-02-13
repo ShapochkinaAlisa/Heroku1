@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Марс</title>
+    </head>
+    <body>
+        <h1>Миссия Колонизация Марса</h1>
+        <h4>И на Марсе будут яблони цвести!</h4>
+        {% if "инженер" in job or "строитель" in job %}
+        <div><img src="/static/img/1.png"></div>
+ {% else %}
+       <div><img src="/static/img/2.png"></div>
+ {% endif %}
+    </body>
+</html>
+
+
